@@ -70,7 +70,7 @@ function setup() {
 // start
 document.querySelector("button").addEventListener("click", function () {
 
-    change = setInterval(setup, 300);
+    change = setInterval(setup, 1000);
 
 });
 
